@@ -1,0 +1,26 @@
+客户端中
+
+常用liux命令
+ls dir 查看当前全部文件
+pwd 查看当前路径
+mkdir test 新建test文件夹
+cd test 进入
+cd ../ 返回上一层
+vi vim index.php 修改文件 i 进入编辑模式 ESC 退出编辑模式 进入一般模式 输入 :wq 保存退出
+rm -rf index.php 
+
+初始化 
+git config --list 查看提交配置
+git config --global user.name 'tanghehe1'  //用户名
+git config --global user.email 'tanghehe1@163.com'  //邮箱
+mkdir test  //新建文件夹
+touch  index.php //创建文件
+git init  //创建仓库 会生成一个.git的隐藏文件
+git status  //查看文件状态
+
+git add  index.php //将工作区的文件添加到缓存区
+git commit  -m  'add index.php'   //描叙内容 将缓存区的内容添加描叙
+git rm index.php  //删除git仓库中的文件
+git clone https://github.com/tanghehe1/test.git   //重github克隆到本地仓库
+git push //同步到github仓库
+
